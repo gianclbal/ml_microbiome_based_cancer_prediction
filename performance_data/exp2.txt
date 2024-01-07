@@ -1,0 +1,30 @@
+Class:  HNSC
+Fitting..
+Best Hyperparameters: {'classifier__criterion': 'entropy', 'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 50, 'dimensionality_reduction__n_components': 8}
+Accuracy on Test Set: 0.677536231884058
+Mean Train Score: 0.9929240309838747
+Mean Test Score: 0.774891177432161
+Class:  STAD
+Fitting..
+Best Hyperparameters: {'classifier__criterion': 'gini', 'classifier__max_depth': 50, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 50, 'dimensionality_reduction__n_components': 8}
+Accuracy on Test Set: 0.7636116152450091
+Mean Train Score: 0.9194743890851189
+Mean Test Score: 0.8155511155511157
+Class:  COAD
+Fitting..
+Best Hyperparameters: {'classifier__criterion': 'gini', 'classifier__max_depth': 30, 'classifier__min_samples_leaf': 10, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100, 'dimensionality_reduction__n_components': 4}
+Accuracy on Test Set: 0.9047186932849365
+Mean Train Score: 0.9154126085276835
+Mean Test Score: 0.9104428904428904
+Class:  ESCA
+Fitting..
+Best Hyperparameters: {'classifier__criterion': 'entropy', 'classifier__max_depth': 30, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 50, 'dimensionality_reduction__n_components': 4}
+Accuracy on Test Set: 0.5816993464052287
+Mean Train Score: 0.9951219512195122
+Mean Test Score: 0.5846582365003419
+Class:  READ
+Fitting..
+Best Hyperparameters: {'classifier__criterion': 'entropy', 'classifier__max_depth': 50, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 150, 'dimensionality_reduction__n_components': 8}
+Accuracy on Test Set: 0.4857142857142857
+Mean Train Score: 1.0
+Mean Test Score: 0.6296428571428572
